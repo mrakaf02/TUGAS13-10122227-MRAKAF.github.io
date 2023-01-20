@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUGAS 13</title>
+    <link rel="stylesheet" href="w3.css" />
+    <style>
+      button {
+        position: relative;
+      }
+      button:hover {
+        transition: 1.5s;
+      }
+      .gas {
+        padding-top: 15px;
+        height: 70px;
+      }
+
+      .bg {
+        background-color: rgb(177, 174, 174);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w3-card-4 w3-light-grey">
+      <img src="img13/got banner2.png" alt="m4" style="width: 100%" />
+    </div>
+
+    <div class="w3-bar w3-text-white gas" style="padding-left: 80px; background-color: rgb(34, 31, 31)">
+      <button class="w3-bar-item w3-button" onclick="openKota('profile')">Profile</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Top')">Jon Snow</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Bottom')">Daenerys Targaryen</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Left')">Robb Stark</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Right')">Tyrion Lannister</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Spin')">Joffrey Baratheon</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Opacity')">Theon Greyjoy</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Fading')">Khal Drogo</button>
+      <button class="w3-bar-item w3-button" onclick="openKota('Zoom')">Night King</button>
+    </div>
+
+    <div id="profile" class="w3-container kota w3-animate-zoom bg" style="display: block; background-color: rgb(255, 247, 173)">
+      <center>
+        <h1>Profile</h1>
+        <img src="img13/rka1.jpg" style="width: 350px; height: 450px" class="w3-round-xlarge w3-card-4" />
+        <table style="margin-top: 20px; font-weight:bold;">
+          <tr>
+            <td>NAMA</td>
+            <td>: MUHAMMAD RAKA FADLILLAH</td>
+          </tr>
+          <tr>
+            <td>NIM</td>
+            <td>: 10122227</td>
+          </tr>
+          <tr>
+            <td>KELAS</td>
+            <td>: IF-6</td>
+          </tr>
+          <tr>
+            <td>INSTAGRAM</td>
+            <td>: <a href="https://www.instagram.com/mrakaf_" style="color: blue">@mrakaf_</a></td>
+          </tr>
+          <tr>
+            <td>GITHUB</td>
+            <td>: <a href="https://github.com/mrakaf" style="color: blue">mrakaf.github.io</a></td>
+          </tr>
+          <tr>
+            <td>LINKEDIN</td>
+            <td>: <a href="https://www.linkedin.com/in/mrakaf-2a4a02242/" style="color: blue">mrakaf linkedin</a></td>
+          </tr>
+        </table>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Top" class="w3-container kota w3-animate-top bg" style="display: none">
+      <center>
+        <h1>Who is Jon Snow in Game Of Thrones?</h1>
+        <img src="./img13/jon snow.jpg " style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">"With respect, Your Grace, I don't need your permission, I am a King!"<br />- Jon Snow, 'Game Of Thrones', Season Seven, 'Eastwatch'.</h3>
+        <hr />
+        <br />
+        <p style="text-align: justify">
+          Jon Snow, born Aegon Targaryen is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. From infancy, Jon is presented as the bastard son of Lord Eddard Stark, Lyanna's brother, and raised alongside
+          Eddard's lawful children at Winterfell. Jon's true parentage is kept secret from everyone, including Jon himself, in order to protect him from those that sought the complete annihilation of House Targaryen. Jon joins the Night's
+          Watch and is later elected as Lord Commander. As a result of several controversial decisions, such as allowing the wildlings to settle south of the Wall, Jon is murdered in a mutiny, but is resurrected by Melisandre. Freed from
+          his Night's Watch vows, Jon and his half-sister Sansa Stark retake Winterfell from House Bolton, restoring House Stark's dominion over the North. Jon is declared King in the North. Jon neGame Of Thronesiates with Daenerys
+          Targaryen for an alliance against the White Walkers in the imminent Great War. Later he pledges himself and his army to Daenerys, whom he falls in love with, subsequently abdicating his throne and being named Warden of the
+          North.[1] Later, Jon learns his true lineage from Samwell Tarly, revealing Daenerys is his aunt. A dragonrider whose dragon was Rhaegal, he fights in the Battle of Winterfell, during which the Night King is defeated and the return
+          of the Long Night is prevented. Afterwards, Jon aids Daenerys in her resumed campaign to take the Iron Throne and participates in the Battle of King's Landing. However, when Daenerys lays waste to a surrendered King's Landing, Jon
+          tries but is unable to dissuade her from more destruction and assassinates her to prevent further carnage. Following the Great Council of 305 AC, Jon is sent into exile, returning to the Night's Watch. He leads the remaining Free
+          Folk to settle in the thawing free lands.
+        </p>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Bottom" class="w3-container kota w3-animate-bottom bg" style="display: none">
+      <center>
+        <h1>Who is Daenerys Targaryen in Game Of Thrones?</h1>
+        <img src="./img13/daenereys.jpg" style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">“I am the dragon’s daughter, and I swear to you that those who would harm you will die screaming.” <br />- Daenerys Targaryen</h3>
+        <hr />
+        <br />
+        <p style="text-align: justify">
+          Queen Daenerys I Targaryen,[N 1] also known as Daenerys Stormborn, and affectionately known as Dany, was the only daughter of King Aerys II Targaryen and Queen Rhaella, and the younger sister of Rhaegar and Viserys Targaryen.
+          Daenerys was initially a timid, obedient youth. After her marriage to Drogo she gathered the confidence of his khalasar. Following his death, she expanded her dominion into Essos, gaining the loyalty of an army of Unsullied and
+          liberating Slaver's Bay from the Ghiscari slave masters. During her war for Westeros, Daenerys eventually succumbed to the so-called "Targaryen madness" of her ancestors after a series of personal losses, grief, and betrayal.
+          Razing King's Landing despite its surrender, Daenerys seized power after killing Queen Cersei Lannister, along with countless common folk. Unable to be dissuaded from further destruction, she was assassinated by her nephew Jon
+          Snow to prevent further carnage. She was later succeeded by Bran the Broken, elected by the Great Council of 305 AC. She formally styled herself as Daenerys Stormborn of House Targaryen, the First of Her Name, Queen of the Andals
+          and the First Men, Protector of the Seven Kingdoms, the Mother of Dragons, the Khaleesi of the Great Grass Sea, the Unburnt, the Breaker of Chains, though the style was occasionally shortened to Daenerys of the House Targaryen,
+          the First of Her Name, Breaker of Chains and Mother of Dragons.
+        </p>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Left" class="w3-container kota w3-animate-left bg" style="display: none">
+      <center>
+        <h1>Who is Robb Stark in Game Of Thrones?</h1>
+        <img src="./img13/robb stark.jpg" style="width: 350; height: 540px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">"All men should keep their word, kings most of all." ―Robb Stark</h3>
+        <hr />
+        <br />
+        <p style="text-align: justify">
+          Robb was the eldest child of Lady Catelyn and Lord Eddard Stark.[1] Robb was born at Riverrun and raised at Winterfell. His father left his mother the morning after their wedding to fight in Robert's Rebellion and did not return
+          until after Robb was born. Robb Stark was likely named after Robert Baratheon.[citation needed] He had two younger trueborn brothers, Bran and Rickon, and two sisters, Sansa and Arya.[2] Robb and Jon play as youths. Robb also had
+          a "bastard half-brother", Jon Snow, with whom Robb shared a close relationship. Jon is actually Robb's cousin by blood, as Jon is the son of Lyanna Stark and Rhaegar Targaryen. Robb was also close to his father's ward, Theon
+          Greyjoy, whom he counted as his best friend outside of the family.[3] Robb had been trained from childhood to wield a sword and wear armor by Winterfell's master-at-arms Ser Rodrik Cassel, and was highly proficient with both for
+          his young age. He lived at Winterfell with his family.<br />King Robb Stark was the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn. Following his father's execution, Robb was declared King in the North,
+          won many battles against the House Lannister, but eventually he, his mother, and his forces were slain at the Red Wedding.
+        </p>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Right" class="w3-container kota w3-animate-right bg" style="display: none">
+      <center>
+        <h1>Who is Tyrion Lannister in Game Of Thrones?</h1>
+        <img src="./img13/tyrion lannister.jpg" style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">
+          “Let me give you some advice, bastard. Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.” <br />– Tyrion Lannister, S01E01, “Winter is Coming”
+        </h3>
+        <hr />
+        <p style="text-align: justify">
+          Lord Tyrion Lannister, also known by the nicknames the Halfman or the Imp and the alias Hugor Hill, is a fictional character in the A Song of Ice and Fire series of epic fantasy novels by American author George R. R. Martin, and
+          its television adaptation Game of Thrones, where he is portrayed by American actor Peter Dinklage. Introduced in A Game of Thrones (1996), Tyrion is a prominent point of view character in the series, having the most viewpoint
+          chapters in the first five published novels. He is one of a few prominent characters not included in A Feast for Crows (2005) but returned in A Dance with Dragons (2011), and is confirmed to appear in the forthcoming sixth novel
+          The Winds of Winter.[2][3] Tyrion developed from a character concept Martin had while writing the 1981 novel Windhaven.[4] He is Martin's favorite character in the series.[4][5]
+          <br />
+          Tyrion is the youngest child of Lord Tywin Lannister, the patriarch of House Lannister, one of the wealthiest and most powerful families in the fictional continent of Westeros. As Tyrion is born a dwarf and his mother died during
+          childbirth, he is resented by Tywin since birth. Tyrion uses his status as a Lannister partly to mitigate the prejudice he has received all of his life, especially from Tywin and his sister, Cersei Lannister. He soothes his
+          inadequacies with wine, wit and self-indulgence. As a civil war begins, he is sent by Tywin to impose order on the capital as well as serve as his nephew King Joffrey Baratheon's acting Hand of the King in his absence. Tyrion
+          struggles to strengthen and protect the city and family, narrowly winning the Battle of the Blackwater. When his father returns and takes his position as Hand of the King, Tyrion is compensated with the difficult position of
+          Master of Coin. He is framed for Joffrey's murder and flees Westeros for Essos.
+          <br />
+          Tyrion has been called one of the author's finest creations and most popular characters by The New York Times.[6][7] The popularity of the character led Martin and Bantam Books to publish The Wit & Wisdom of Tyrion Lannister
+          (2013), an illustrated collection of Tyrion quotes from the novels. Dinklage has received widespread critical acclaim for his performance as Tyrion. He won four Primetime Emmy Awards for Outstanding Supporting Actor in a Drama
+          Series and a Golden Globe Award for Best Supporting Actor in a Series, Miniseries, or Television Film. He is the only Game of Thrones actor to win an Emmy award and the only actor to receive a nominat ion for each season.
+        </p>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Spin" class="w3-container kota w3-animate-opacity bg" style="display: none">
+      <center>
+        <h1>Who is Joffrey Baratheon in Game Of Thrones?</h1>
+        <img src="./img13/Jeffrey Baratheon.jpg" style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">"Ser Meryn. Leave Her Face, I Like Her Pretty." - Joffrey Baratheon</h3>
+        <hr />
+        <br />
+        <p style="text-align: justify">
+          Joffrey is believed to be the oldest son and heir of King Robert Baratheon and Queen Cersei Lannister, both of whom entered into a marriage of political alliance after Robert took the throne by force from the "Mad King," Aerys II
+          Targaryen. In reality, his father is Jaime Lannister, Cersei's brother, the murderer of Aerys and the Lord Commander of the Kingsguard.[1] His sole biological grandparents, Tywin and Joanna Lannister, were also first cousins. He
+          has two younger siblings, Myrcella and Tommen Baratheon, who are also a product of incest between Jaime and Cersei (despite this, only Joffrey himself shows any psychopathic traits, presumably as a result of his inbred
+          origins).<br />[2] Joffrey takes after his mother in terms of looks and personality, his blond hair being a subtle clue that he isn't really a Baratheon, who famously always possess black hair even when only one parent is
+          Baratheon. Cersei herself lets it slip to Catelyn Stark that she once had a child with black hair who died prematurely of a fever before she had Joffrey.[3] He is usually accompanied by his sworn shield, the formidable Sandor
+          Clegane, better known as the Hound. Even before he ascends to the Iron Throne, Joffrey is spoiled, arrogant, cowardly, childish and sadistic, though he tends to hide these traits before his ascension, appearing to be the typical
+          charming heir to Seven Kingdoms. However, these traits are further exacerbated upon Robert's death and his ascension to the crown, proving to be one of the most twisted and malevolent Westerosi monarchs.[4]
+        </p>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Opacity" class="w3-container kota w3-animate-opacity bg" style="display: none">
+      <center>
+        <h1>Who is Theon Greyjoy in Game Of Thrones?</h1>
+        <img src="./img13/theon greyjoy.jpg" style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">
+          My Sword Is Yours, In Victory And Defeat, From This Day Until My Last Day. <br />
+          -Theon Greyjoy
+        </h3>
+        <hr />
+        <br />
+        <p style="text-align:justify;">
+          Theon Greyjoy was the youngest son of King Balon Greyjoy of the Iron Islands and the younger brother of Rodrik, Maron, and Yara Greyjoy. Following his father's failed rebellion against the Iron Throne, Theon is taken as a ward
+          (initially hostage) to Lord Eddard Stark of Winterfell. After Eddard's execution in King's Landing, Theon pledges his loyalty to Eddard's eldest son, King Robb Stark, in the subsequent War of the Five Kings, but ultimately betrays
+          Robb and sides with his father in invading the North. Theon takes Winterfell from Robb's brother, Bran, but eventually is betrayed by his own men, which leads to his capture by House Bolton. He is tortured and forced into
+          servitude by Ramsay Snow, who turns him into a broken pet named Reek. Theon, however, redeems himself by helping Ramsay's wife (and Robb's sister), Sansa Stark, escape from Winterfell and find refuge with her "half-brother" Jon
+          Snow. The two later retake Winterfell, defeating Ramsay and House Bolton. Slowly returning to his former self, Theon returns to the Iron Islands, where he learns of his father's death at the hands of his uncle, Euron Greyjoy, who
+          is later elected King of the Iron Islands via Kingsmoot. In retaliation, Theon flees with Yara to seek out an alliance with Daenerys Targaryen in Meereen, where they pledge their forces to her. Despite abandoning Yara during the
+          assault on the Targaryen fleet, he later appeals to the remaining ironborn on Dragonstone to rescue her from Euron's custody, a mission they complete successfully. While Yara sails to retake the Iron Islands, Theon returns to
+          Winterfell with a group of ironborn to fight for House Stark in the Great War. Theon perishes defending Bran from the Night King during the Battle of Winterfell, redeeming himself at last.
+        </p>
+        <br><br>
+      </center>
+    </div>
+
+    <div id="Fading" class="w3-container kota w3-animate-fading bg" style="display: none">
+      <center>
+        <h1>Who is Khal Drogo in Game Of Thrones?</h1>
+        <img src="./img13/khal drogo.jpg" style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">
+          "Maybe I Refused To Enter The Night Lands Without You."<br />
+          — Khal Drogo, Season 2 Episode 10
+        </h3>
+        <hr />
+        <br />
+        <p style="text-align: justify">
+          Drogo is a khal or warlord of the Dothraki, the famed nomadic horse-lords of the eastern continent beyond the Narrow Sea. The Dothraki are fierce warriors, skilled in battle, unrelenting in combat and known for savagery towards
+          non-Dothraki. Amongst their own people they have a code of honor, albeit still a harsh and unforgiving one. Drogo was very young to have his own khalasar, particularly such a large one. He is a legendary warrior and has never been
+          defeated in battle.[1] Drogo desired the most beautiful and exotic woman in the world as his khaleesi or wife, and enlisted Magister Illyrio Mopatis of Pentos to help him find such a woman.[2] He is guarded by bloodriders
+          including Qotho.[2] Generals or ko in his khalasar include Pono and Jhaqo, men who guard him, follow him in battle and, when Drogo dies, it is their duty and honor to follow him even then to continue serving him.[3] Game of
+          Thrones: Season 1 Drogo inspects his bride. Illyrio and Prince Viserys Targaryen arrange the marriage of Viserys's sister Daenerys to Khal Drogo in return for Drogo supplying Dothraki troops to support Viserys's play for the Iron
+          Throne of Westeros. Drogo agrees, after inspecting Daenerys in the Free City of Pentos, but does not stipulate a time frame. Viserys notes the length of Drogo's braid: Dothraki have to cut off their hair when they are defeated,
+          but Drogo's long queue suggests that he has never been defeated in battle. Viserys states that Drogo is a "savage" but also "one of the finest killers alive."[2] Drogo marries Daenerys in a Dothraki ceremony. Drogo marries
+          Daenerys outside Pentos, but is unable to communicate with his new wife due to neither of them sharing a common language. Drogo only appears to understand the word "No," which he repeats often. Ser Jorah Mormont, a Westerosi
+          knight who has Drogo's favor, aids with translation. As a wedding gift, Illyrio gives Daenerys three dragon eggs that have turned to stone due to the passage of time. Drogo gives Daenerys a beautiful white horse. Daenerys wishes
+          to thank Drogo for his gift, but Jorah tells her that there is no word for "thank you" in her new husband's language, a reminder of how unpleasant the Dothraki can be.[2] Daenerys tells Drogo that she expects a son. Drogo is
+          determined to consummate their marriage immediately, which Daenerys finds uncomfortable and frightening.[2] Attempting to make her time with Drogo more bearable, Daenerys begins learning the Dothraki language from her handmaid
+          Irri and seeks advice from another handmaid, Doreah, on how to best please him in bed while establishing her own power over him using her sexuality, which culminates in a closer relationship. Combining these skills, Drogo comes to
+          respect her as an equal.[4] After two months, Daenerys and Drogo are happier together. Drogo expresses satisfaction and joy at the news that Daenerys is with child, and that she thinks it will be a boy.[5] In King's Landing, King
+          Robert Baratheon's spymaster, Varys, is working with Illyrio in planning the Dothraki invasion of the Seven Kingdoms. However, Drogo is content to wait until his son is born before planning the assault. Varys thinks that the
+          situation in Westeros will unravel much more quickly than they anticipated and urges Illyrio to get Drogo to speed up his timetable.[6] Drogo celebrates his child. In Vaes Dothrak, the sacred city of the Dothraki, Drogo is pleased
+          when he learns that the dosh khaleen prophecy that says his son will be the 'Stallion Who Mounts the World', a prophesied khal of khals who will command the largest khalasar ever seen and lead the Dothraki to dominion over all the
+          lands of the world. He also approves of Daenerys naming him Rhaego after her slain brother, Rhaegar, a great warrior defeated in battle by "the usurper" Robert Baratheon.[7] Drogo mocks Viserys. However, the later stages of the
+          celebrations are interrupted by a drunken and aggressive Viserys. Drogo states that he is "no king", to which Viserys petulantly demands that Drogo took Daenerys but never provided the army he promised. Unconvinced that he can be
+          harmed in the Sacred City, Viserys draws his sword and threatens that unless he is given his army immediately, he will take back his sister, but leave the child, saying he will cut it out and leave it for Drogo.[7] Drogo kills
+          Viserys. Furious, but careful to control his emotions for the sake of Daenerys and their child, Drogo agrees to give Viserys "a golden crown that men shall tremble to behold." Not understanding the language, Viserys believes he is
+          finally getting what he wants, and lowers his guard, allowing two of Drogo's bloodriders to disarm and restrain him. Drogo melts a belt of golden medallions in a pot, then "crowns" Viserys with the molten gold, killing him.[7]
+          Drogo swears to cross the Narrow Sea and take the Iron Throne. Daenerys asks Drogo to continue with the invasion, but with his obligation to Viserys gone, Drogo is reluctant to attempt to cross the Narrow Sea because of his
+          people's fear of the "poison water" (the sea, which the Dothraki fear, because they distrust any liquid that a horse will not drink) and "wooden horses" (ships). Ser Jorah later saves Daenerys from an assassin sent by King Robert.
+          Learning of the attempt, Drogo rewards Jorah with any horse he desires from Drogo's own herd. Drogo furiously swears a blood oath that he will punish Westeros for their attempt on the life of his wife and child, lead the Dothraki
+          beyond the poison water to invade the Seven Kingdoms and seat his son on the "Iron Chair" of Westeros.[8] Drogo leads his men to raid and plunder a village of the Lhazareen, peaceful sheep-herders. He plans to take slaves to trade
+          for a fleet to invade Westeros. Daenerys protests when the Dothraki begin raping the women of the village, and has her retinue stop the practice. Mago becomes infuriated at Daenerys's presumption to give him orders and complains
+          to Drogo.[9] Drogo kills Mago for his defiance. Drogo agrees that this is custom amongst the Dothraki, but out of admiration for Daenerys' spirit, agrees to let her keep the female slaves for herself. Mago accuses Drogo of being
+          at the whim of the "foreign whore", holding his arakh to Drogo's chest. Enraged, Drogo presses the blade into his own flesh to show his contempt for Mago's challenge, causing a small flesh wound, before he fights Mago in single
+          combat, dropping his arakh and his daggers to the ground to show his disdain for Mago's skills. He kills Mago with the reverse edge of his own weapon, and tears his tongue out through his throat.[9] Drogo's injuries take effect.
+          At Daenerys's pleading, he allows one of her new slaves, Mirri Maz Duur, a godswife and maegi to treat his injury – ignoring warnings from his bloodrider Qotho.[9] The wound festers, poisoning the khal, and Drogo eventually falls
+          from his horse, unable to ride, a great shame within the Dothraki culture, for "a Khal that cannot ride cannot lead." Duur tells Daenerys that he will die soon.[10] Daenerys commands her to use magic to save Drogo, and Duur
+          agrees, but the Dothraki become agitated at this display of "witchcraft." The khalasar separates. Qotho intervenes to prevent the ritual and is killed by Jorah. Daenerys goes into labor after being shoved to the ground by Qotho.
+          Drogo's own horse is used by the godswife as a blood sacrifice in the ritual. Monstrous sounds are emitted from the khal's tent while Maz Duur chants.[10] Daenerys and a vegetative Drogo. Daenerys's child is stillborn and
+          deformed, with leathery scaled skin like a dragon's, wings, and a stomach filled with grave-worms. Drogo survives but is left in a vegetative state. Duur admits she did this deliberately in revenge for the sacking of her village.
+          The ritual that saved Drogo drew its power from not only the death of Drogo's favored stallion but the death of Daenerys's son, causing the stillbirth and monstrous appearance.[11] Daenerys ends Drogo's misery. Weeping, Daenerys
+          smothers Drogo with a pillow to end his misery. She has her dragon eggs placed beside Drogo on his funeral pyre, then orders Jorah to bind Duur to it as well, and she is burned alive. When the pyre is completely ablaze, Daenerys
+          walks into the flames to the shock of Jorah and the remaining Dothraki. The next morning, Daenerys is found sitting naked and unharmed among Drogo's ashes, cradling three newborn dragons -- the conflagration, along with the
+          sacrifice of Duur's life, triggered the hatching of the eggs, releasing the first dragons into the world in over a century.[11]
+          <br><br>
+        </p>
+      </center>
+    </div>
+
+    <div id="Zoom" class="w3-container kota w3-animate-zoom bg" style="display: none">
+      <center>
+        <h1>Who is Night King in Game Of Thrones?</h1>
+        <img src="./img13/night king.jpg" style="height: 540px; width: 350px" class="w3-round-xlarge w3-card-4" />
+        <h3 class="w3-cursive" style="padding-top: 20px">
+          "I’m going to destroy you. After tonight, no one will ever again question my power. After tonight if they speak of you, they’ll only speak of how you begged for death. And how I being a merciful Lord… obliged." <br />- Night King
+        </h3>
+        <hr />
+        <br />
+        <p style="text-align: justify">
+          The Night King was once a mortal man, one of the First Men who waged a lengthy war with the Children of the Forest. As the Children were losing the war, a small group of greenseers captured the unfortunate man and bound him to a
+          heart tree to be used for a terrible purpose. Leaf, who was among the group, pressed a cursed dragonglass dagger into the captive's chest, causing his eyes to turn blue and turning him into the first of the White Walkers.
+          Thousands of years later, Leaf explains to Bran Stark that her people created the White Walkers to defend themselves when Westeros was invaded by the First Men, who were cutting their sacred trees down and slaughtering the
+          Children of the Forest.[citation needed] However, the White Walkers soon turned on their creators and began what was known as the Long Night.[1] Though the Long Night ended upon the First Men and Children's victory in the War for
+          the Dawn, the Night King survived and retreated with the rest of his kind to the Lands of Always Winter, where they hid and faded into legend.[citation needed] The Night King is a legendary figure, known by name among, at least,
+          some noble houses in the North.[2]
+          <br><br>
+        </p>
+        <br />
+      </center>
+    </div>
+
+    <footer>
+      <div class="w3-container w3-center w3-text-white" style="background-color: rgb(34, 31, 31); padding-top: 30px">
+        <div class="w3-row mt-4">
+          <div class="w3-col-sm-12">
+            <button class="w3-bar-item w3-button w3-round-xlarge" onclick="openKota('profile')">HOME</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function openKota(namaKota) {
+        var i;
+        var x = document.getElementsByClassName('kota');
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = 'none';
+        }
+        document.getElementById(namaKota).style.display = 'block';
+      }
+    </script>
+  </body>
+</html>
